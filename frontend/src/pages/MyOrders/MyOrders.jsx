@@ -40,7 +40,8 @@ const MyOrders = () => {
                 <p>₹{order.amount}.00</p>
                 <p>Items: {order.items.length}</p>
                 <p><span>&#x25cf;</span> <b>{order.status}</b></p>
-                <button>Track Order</button>
+                <button >Track Order</button>
+                {/* <a href="leaf-map.html"  target="_blank" ></a> */}
             </div>
           )
         })}
